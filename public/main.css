@@ -1,0 +1,21 @@
+/*
+ * This is a CSS file.
+ * Inside of CSS files comments are started with /* and ended with:
+ */
+
+/*
+ * We won't be requiring CSS files for this project, however if you
+ * know CSS feel free to add your styles in here rather than directly
+ * in your HTML files.
+ */
+
+/*
+ * This file is located at "public/main.css" in your project directory.
+ * Because it is in the "public" directory, Sinatra knows to make the file
+ * accessible to your HTML files when you use the src="path/to/file"
+ * attribute on the appropriate tags.
+ *
+ * To include an image into your site, place the file in the public directory
+ * and use <img src="/name_of_image.png"> in your HTML file. The "public" part
+ * of the path is not necessary.
+ */
