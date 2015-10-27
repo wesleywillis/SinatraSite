@@ -12,6 +12,7 @@
 ## Wave 1: Learn Sinatra
 
 The requirements for this wave are:
+  - Create a Gemfile that includes the sinatra gem in the default group, and the pry gem in the development environment. Make sure to commit your Gemfile.lock file.
   - Create a Sinatra application
   - Your Sinatra application will serve static HTML pages
     - Feel free to use some of the static HTML pages made for the previous exercise
