@@ -1,11 +1,21 @@
 # Sinatra Site
 
+## Baseline Setup
+
+1. You'll be working as an individual on this project.
+1. Clone the project master repo and create a new branch with your initials.
+1. Push your branch so it will show in the list of branches on the project master.
+1. Fork and clone your repository.
+1. Switch to your branch by doing `git checkout [YOUR BRANCH NAME]`. *Do not work on the master branch*.
+1. `cd` into the dir created: `$ cd SinatraSite`
+
 ## Wave 1: Learn Sinatra
 
 The requirements for this wave are:
   - Create a Sinatra application
-  - Use that application to serve static HTML pages
-  - At least one of the static pages must include at least 2 images
+  - Your Sinatra application will serve static HTML pages
+    - Feel free to use some of the static HTML pages made for the previous exercise
+  - At least **one** of the static pages must include at least **two** images
 
 ## Wave 2: Use CSS to apply style and struture to our website
 
