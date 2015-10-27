@@ -6,16 +6,20 @@ class MySite < Sinatra::Base
     erb :index
   end
 
+  get "/index" do
+    erb :index
+  end
+
   get "/about" do
     erb :about
   end
 
   get "/blog" do
-    erb :about
+    erb :blog
   end
 
   get "/projects" do
-    erb :about
+    erb :projects
   end
 
 end
