@@ -6,8 +6,8 @@
 1. Clone the project master repo and create a new branch with your initials.
 1. Push your branch so it will show in the list of branches on the project master.
 1. Fork and clone your repository.
-1. Switch to your branch by doing `git checkout [YOUR BRANCH NAME]`. *Do not work on the master branch*.
 1. `cd` into the dir created: `$ cd SinatraSite`
+1. Switch to your branch by doing `git checkout [YOUR BRANCH NAME]`. *Do not work on the master branch*.
 
 ## Wave 1: Learn Sinatra
 
@@ -18,6 +18,7 @@ The requirements for this wave are:
     - Feel free to use some of the static HTML pages made for the previous exercise
   - At least **one** of the static pages must include at least **two** images
 
+<!--
 ## Wave 2: Use CSS to apply style and struture to our website
 
 The requirements for this wave are:
@@ -40,3 +41,4 @@ The requirements for this wave are:
 - Use ERB to include your _partial_ in your _layout_.
 - Add and style a new page to your website using a Sinatra route and ERB view (content your choice).
 - Include a copyright/copyleft statement in your website footer. Utilize Ruby/ERB to ensure the year of the notice will always be current.
+-->
