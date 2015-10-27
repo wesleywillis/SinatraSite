@@ -4,9 +4,9 @@
  */
 
 /*
- * We won't be requiring CSS files for this project, however if you
- * know CSS feel free to add your styles in here rather than directly
- * in your HTML files.
+ * Starting with Wave 2 of this project we will be using CSS to style our
+ * web pages. You should place all of your styles in this file and then
+ * reference it from each of your HTML files.
  */
 
 /*
@@ -15,7 +15,7 @@
  * accessible to your HTML files when you use the src="path/to/file"
  * attribute on the appropriate tags.
  *
- * To include an image into your site, place the file in the public directory
- * and use <img src="/name_of_image.png"> in your HTML file. The "public" part
- * of the path is not necessary.
+ * For example, to include an image into your site, place the file in the
+ * public directory and use <img src="/name_of_image.png"> in your HTML
+ * file. The "public" part of the path should *not* be included.
  */
