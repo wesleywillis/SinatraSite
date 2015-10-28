@@ -1,12 +1,17 @@
 require "sinatra"
 
 class MySite < Sinatra::Base
-  get "/about.html" do
-    erb :about
+
+  get "/" do
+    erb :index
   end
 
   get "/index.html" do
     erb :index
+  end
+
+  get "/about.html" do
+    erb :about
   end
 
   get "/blog.html" do
