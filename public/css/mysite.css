@@ -33,6 +33,15 @@ a:link, a:visited {
 
 }
 
+i:hover {
+  color: magenta;
+  font-size: 50pt;
+  position: absolute;
+
+
+}
+i:active {font-size: 50pt}
+
 footer {
     background-color: #3E3B39 ;
     color: white;
