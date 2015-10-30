@@ -1,16 +1,17 @@
 <html>
   <head>
-    <title>Hailey Willis</title>
+    <title><%=@title%></title>
     <link href="css/mysite.css" rel="stylesheet">
     <link href="css/<%= @css_sheet %>.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Raleway:600,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/svg" href="../rocket.svg”/>
     <meta charset = "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <header>
-    <h1 class="page_title">Hailey says hi.</h1>
+    <h1 class="page_title"><%=@title%></h1>
     <nav>
       <ul>
         <li><a class="internal_link" href="./index.html">Home</a></li>
