@@ -1,1 +1,10 @@
-img { border-radius: 0px 50px 0px}
+img {
+  border-radius: 0px 50px 0px;
+  display: block;
+  margin: 100px auto;
+
+}
+
+h3 {
+  text-align: center;
+    }

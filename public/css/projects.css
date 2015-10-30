@@ -1,6 +1,22 @@
-p a:link, p a:visited {
+p#project_links a:link, p#project_links a:visited {
   color: black;
   text-decoration: none;
 }
 
-p a:hover {color: #6fddbf}
+p#project_links a:hover {
+  color: #6fddbf;
+}
+
+p#project_links i:hover {
+  transform: rotate(90deg)
+}
+
+p#project_links i {
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+table img {
+  border-radius: 0 50px 0;
+  margin: 50px
+}

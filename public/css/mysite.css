@@ -6,7 +6,7 @@ body {
   font-family: "Raleway",serif;
 }
 
-header {  background-color: #EB1D34 /* #3E3B39 */ ;
+header {  background-color: #EB1D34;
           color: white;
           text-align: center;
           font-weight: 600;
@@ -22,7 +22,9 @@ nav ul {
   font-weight: 600;
 }
 
-nav a:hover{font-style:bolder;}
+header a:hover {
+  color: #6fddbf
+}
 
 li {
   display: inline;
@@ -36,6 +38,8 @@ header a:link, header a:visited {
 
 }
 
+header a:hover {color: #6fddbf}
+
 footer a:link, footer a:visited {
   color: white;
   text-decoration: none;
@@ -43,8 +47,9 @@ footer a:link, footer a:visited {
   margin: 50px
 
 }
+
 a:hover {color: #6fddbf}
-i:hover {
+footer i:hover {
   color: #6fddbf;
   font-size: 50pt;
   position: absolute;
@@ -54,10 +59,12 @@ i:hover {
   transition-timing-function: ease-out;
 }
 
-i:active {font-size: 50pt}
-
 footer {
     background-color: #3E3B39 ;
     color: white;
     padding: 10px;
+    text-align: center;
+    p#copy_right
 }
+
+p#copyright {text-align: left;}
