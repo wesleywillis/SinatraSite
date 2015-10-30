@@ -6,7 +6,7 @@ body {
   font-family: "Raleway",serif;
 }
 
-header {  background-color: #3E3B39 ;
+header {  background-color: #EB1D34 /* #3E3B39 */ ;
           color: white;
           text-align: center;
           font-weight: 600;
@@ -19,7 +19,7 @@ nav ul {
   margin: 10px;
   text-align: center;
   font-size: 20pt;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 nav a:hover{font-style:bolder;}
@@ -28,7 +28,7 @@ li {
   display: inline;
 }
 
-a:link, a:visited {
+header a:link, header a:visited {
   color: white;
   text-decoration: none;
   padding: 10px;
@@ -36,8 +36,16 @@ a:link, a:visited {
 
 }
 
+footer a:link, footer a:visited {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 50px
+
+}
+a:hover {color: #6fddbf}
 i:hover {
-  color: magenta;
+  color: #6fddbf;
   font-size: 50pt;
   position: absolute;
   position: relative;

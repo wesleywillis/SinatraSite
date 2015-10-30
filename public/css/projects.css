@@ -1,0 +1,6 @@
+p a:link, p a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+p a:hover {color: #6fddbf}
